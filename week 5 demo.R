@@ -26,4 +26,4 @@ plot(Status, main="Number Of Patients And Their Diabetes Condition"
      , ylab="Number Of Patients", xlab="Patients Current Condition")
 
 # save modified dataframe
-write.csv("Diabetes-data.csv")
+write.csv(diabetes_data, "Diabetes-data.csv")
